@@ -1,0 +1,53 @@
+
+.container{
+   width: 50%;
+    margin: 0 auto;
+background: antiquewhite;
+padding: 0 0 20px 0;
+}
+
+h1 {
+    color: white;
+    background: cadetblue;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+input[type="text" ],input[type="email"],input[type = "password"],input[type="submit"]{
+    padding: 9px ;
+    background: white;
+    width: 76%;
+    margin: 12px 68px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button{
+    background: green;
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 14px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+button:hover{
+    background: navy;
+}
+input:hover{
+    border: none;
+}
+.ui-define{
+    background: red;
+    width: 49%;
+    margin: 0 auto;
+    padding: 5px ;
+}
